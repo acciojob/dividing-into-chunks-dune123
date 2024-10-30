@@ -8,7 +8,7 @@ const divide = (arr, n) => {
   let currentSum=0;
 
   for(let i=0;i<arr.length;i++){
-    if(currentSum+arr[i]<n){
+    if(currentSum+arr[i]<=n){
       currentSubarray.push(arr[i]);
       currentSum+=arr[i];
     }
